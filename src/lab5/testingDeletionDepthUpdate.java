@@ -29,7 +29,7 @@ public class testingDeletionDepthUpdate {
     public static void removeStuffFromTree(Random rand, BST tree){
         int deletions = 0;
         int i = 0;
-        while (deletions < 10 || i < 10000) {
+        while (deletions < 10 || i < 5000) {
             if (tree.delete(i)){
                 deletions++;
             }
